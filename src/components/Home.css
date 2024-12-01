@@ -1,0 +1,44 @@
+/* src/styles.css or src/components/Home.css */
+
+/* Container for the home page */
+.home-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .home-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Card Grid for 3x2 layout (3 cards per row and 2 rows) */
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(3, 1fr); /* 3 rows */
+    gap: 20px;
+    justify-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Individual card styling */
+  .card {
+    width: 250px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  
