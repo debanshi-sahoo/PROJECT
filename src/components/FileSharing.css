@@ -1,0 +1,121 @@
+/* File Sharing Container */
+.file-sharing-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .file-sharing-container h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* File Upload Section */
+  .upload-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .file-input {
+    display: none;
+  }
+  
+  .upload-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upload-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* File List */
+  .file-list {
+    margin-top: 20px;
+  }
+  
+  .file-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .file-item p {
+    margin: 0;
+    color: #555;
+    font-size: 16px;
+  }
+  
+  .file-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .download-btn,
+  .delete-btn {
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .download-btn {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .download-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .delete-btn:hover {
+    background-color: #e53935;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .file-sharing-container {
+      padding: 15px;
+    }
+  
+    .file-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .file-actions {
+      justify-content: flex-start;
+      margin-top: 10px;
+    }
+  
+    .upload-btn {
+      font-size: 14px;
+      padding: 8px 18px;
+    }
+  }
+  
