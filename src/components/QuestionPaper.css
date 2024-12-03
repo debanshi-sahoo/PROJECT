@@ -34,6 +34,21 @@
     color: #333; /* Dark text for inputs */
 }
 
+/* Custom styles for option inputs */
+.option-input {
+    margin-bottom: 10px;
+}
+
+.option-input input {
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+}
+
 /* Button styles */
 .btn {
     padding: 10px 15px;
@@ -98,4 +113,37 @@ button:focus {
     outline: none;
     border-color: #007bff;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Blue focus outline for accessibility */
+}
+
+/* Styling for the option fields when question type is MCQ or True/False */
+.form-group select,
+.option-input input {
+    background-color: #f3f3f3; /* Slight gray for options fields */
+    border: 1px solid #bbb; /* Subtle border for options */
+}
+
+/* Styling for option input fields when focus */
+.option-input input:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5); /* Green focus outline for options */
+}
+
+/* Adjusting the preview list for better readability */
+.preview-section ul {
+    padding-left: 20px;
+    font-family: 'Verdana', sans-serif;
+    line-height: 1.4;
+}
+
+.preview-section ul li {
+    margin-bottom: 5px;
+    font-size: 1.05rem;
+    color: #555; /* Slightly lighter for the options list */
+}
+
+/* Improve preview section visibility */
+.preview-section h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 15px;
 }
