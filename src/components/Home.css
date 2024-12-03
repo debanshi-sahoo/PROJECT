@@ -24,11 +24,13 @@
 /* Card Grid for 3 rows x 2 columns */
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columns */
-  gap: 20px;
+  grid-template-columns: repeat(2, 1fr); /* 3 columns */
+  grid-template-rows: repeat(3, auto); /* 2 rows */
+  gap: 20px; /* Spacing between cards */
   justify-items: center;
   margin-top: 20px;
 }
+
 
 
 .card h3 {
